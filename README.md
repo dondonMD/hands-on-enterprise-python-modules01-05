@@ -137,8 +137,8 @@ Expected initial state:
 | 01 | Test collection cannot import the not-yet-implemented domain/repository/API objects. | All 4 tests pass. |
 | 02 | 5 tests fail because the adapter and factory raise `NotImplementedError`. | All 5 tests pass. |
 | 03 | 4 tests fail because pricing, events, and checkout are unfinished. | All 4 tests pass. |
-| 04 | 5 tests fail because streaming and batching are unfinished. | All 5 tests pass. |
-| 05 | 7 tests fail because eager loading, pagination, and caching are unfinished. | All 7 tests pass. |
+| 04 | 4 tests fail because streaming and batching are unfinished; 1 generator-shape test passes. | All 5 tests pass. |
+| 05 | 6 tests fail because eager loading, pagination, and caching are unfinished; 1 N+1 demonstration test passes. | All 7 tests pass. |
 
 ## Troubleshooting
 
