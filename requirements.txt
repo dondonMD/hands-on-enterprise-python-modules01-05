@@ -1,0 +1,2 @@
+# Test runner required by Modules 01-05.
+pytest>=8.0
